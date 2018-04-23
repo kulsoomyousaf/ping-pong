@@ -1,0 +1,60 @@
+<html>
+<head> 
+   <title>Ping Pong Game </title> 
+		<link href="style2.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
+		<script src="js/script.js"> </script>
+</head>
+	<body>
+               <!--header-->
+		
+		<div class="container-fluid"id="header">
+           <h1 id="ping"><strong> PING-PONG</strong></h1>
+	    </div>
+                <!--body-->
+	 <div class="container-fluid" id="body">
+          <div class="row">
+		  <div class="col-md-3">
+             <div class="about">
+               <h4><u>About Ping Pong</u> </h4>
+		       <h6><u>Created by : </u></h6>
+		       <p><strong><em> Kulsoom Yousaf</em></strong></p>
+		       <h6><u>GitHub Username:</u></h6>
+		       <p>Ping-Pong </p>
+		       <h6><u> Level 2 Test for :</u> </h6>
+		       <p> Java </p>
+			 
+			 </div>
+            
+			</div>
+			         <!--rules-->
+		<div class="row"id="game">
+	      <div class="col-md-9">
+        	<h4> Let's play! </h4>
+		<h5><strong>Rules: </strong></h5>
+		<p> Ping pong will up to your number from 1 with the following exceptions:</p><br>
+		<ol>
+		<li> Number divisible by 3 become "ping"</li>
+		<li> Number divisible by 5 become "pong"</li>
+		<li> Number divisible by 15 become "pingpong"</li>
+		</ol>
+		  
+		     <!--forminput-->
+					<form class = "form-inline" id="formInput">
+					  <div class="form-group">
+						<label for="Number Entry">Please enter a number here:</label> &nbsp &nbsp
+						<input type="number" class="form-control" id="numberEntry"> &nbsp &nbsp
+					 
+					  <button type="submit" class="btn btn-info">Find</button>
+					  </div>
+					</form>
+					<ul class="output">
+					</ul>
+			
+		</div>	
+        </div>
+ 
+    </div>
+</body>
+</html>
