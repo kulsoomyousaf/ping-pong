@@ -1,0 +1,49 @@
+#header{
+   background-image:url("123.png");
+   text-align:center;
+   background-size:cover;
+   height:80%;
+padding-top:10%;
+padding-left:%;   
+}
+#ping{
+	padding-left:50%;
+	color:blue;
+	font-size:400%;
+	font-family:Chiller;
+}
+#headertext{
+ padding-top:10%;
+}
+.sidebar
+{
+	position:fixed;
+	left:o%;
+}
+#game
+{
+	position:right;
+	left:opx;
+	padding:5%;
+}
+.about{
+	
+    background-image:url("34.jpg");
+	height:100%;
+	padding-top:5%;
+	padding-left:5%;
+	margin-top:10%;
+	margin-left:0%;
+	color:7A1C4C;
+}
+.about p{
+	color:9E5B7D;
+}
+#body{
+	background-image:url("234.jpg");
+	background-size:cover;
+    color:7A1C4C;
+	font-family:Chiller;
+	font-size:200%;
+}
+	
